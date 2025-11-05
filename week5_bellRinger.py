@@ -29,18 +29,27 @@ print(reversd)
 # b. Extract every third word.
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
 info = "Python is fun. Fun is good. Good is subjective."
-k = info[36:50]
-print(k)
+print(info.rfind('subjective'))
+subjective_word = info[36:]
+print(subjective_word)
+everythird = info.split()[::-1]
+print(everythird)
+reversed_word_position = info.split()[::-1]
+reversed_word_position= ''.join(reversed_word_position)
+print(reversed_word_position)
 
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
-
+text = "MAY THE FORCE BE WITH YOU."
+lowercase_text = text.lower
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
 # a. Convert the list into a single string.
 # b. Now, split the string at every occurrence of the letter 'a'.
-
+motto = ["Make", "haste", "slowly"]
+motto_string = ''.join(motto)
+split_motto = motto_string.split('a')
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
