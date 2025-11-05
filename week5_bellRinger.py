@@ -54,14 +54,26 @@ split_motto = motto_string.split('a')
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
 # b. Replace "plans" with "mistakes".
-
+sentence = "Life is what happens when you are busy making other plans."
+modified_sentence = sentence.replace("busy", "distracted").replace("plans", "mistakes")
+print(modified_sentence)
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+iteration_concat = "Iteration" * 7
+print(iteration_concat)
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
-
+quote = "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+word = "moonlight"
+contains_moonlight = word.lower() in quote.lower()
+print(f"'{word}' in quote:", contains_moonlight)
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+phrase = "Supercalifragilisticexpialidocious"
+length = len(phrase)
+count_i = phrase.lower().count('i')
+print(length)
+print(count_i)
