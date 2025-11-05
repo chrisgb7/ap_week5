@@ -4,13 +4,21 @@
 # a. Retrieve the 5th character.
 # b. Retrieve the second to last character.
 # c. Find the first occurrence of the letter 'c'.
-
+magic = 'abracadabra'
+fifth_character = magic[4]
+print(fifth_character)
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
 # a. Extract the letters 'hij'.
 # b. Extract every second letter starting from 'a' to 'm'.
 # c. Reverse the entire string using slicing.
-
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+ye = alphabet[7:10]
+print(ye)
+second =alphabet[0:12:2]
+reversd = alphabet[::-1]
+print(second)
+print(reversd)
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
@@ -20,6 +28,9 @@
 # a. Extract the word 'subjective' without knowing its exact position.
 # b. Extract every third word.
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
+info = "Python is fun. Fun is good. Good is subjective."
+k = info[36:50]
+print(k)
 
 # Problem Set 3: String Methods
 # Upper & Lower:
