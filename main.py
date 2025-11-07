@@ -1,3 +1,8 @@
+#importing functions
+from problem_set1 import problem1
+#calling the function
+problem1() # this is an abtraction of the function
+advanced_slicing()
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
 # Given the string magic = 'abracadabra',
@@ -12,13 +17,7 @@ print(fifth_character)
 # a. Extract the letters 'hij'.
 # b. Extract every second letter starting from 'a' to 'm'.
 # c. Reverse the entire string using slicing.
-alphabet = 'abcdefghijklmnopqrstuvwxyz'
-ye = alphabet[7:10]
-print(ye)
-second =alphabet[0:12:2]
-reversd = alphabet[::-1]
-print(second)
-print(reversd)
+
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"

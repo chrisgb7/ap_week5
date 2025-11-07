@@ -1,5 +1,10 @@
 ###################fork this############################
-
+#refctoring means to restructure the code
+#without changing its external behavior
+# this helps to improve code readability
+# and maintainability
+# Problem set 1
+#ba
 # **Scenario: "The Great Fruit Festival"**
 
 # You're helping to organize a Fruit Festival at your local community center. The festival involves a variety of games, activities, and challenges involving fruits and other general knowledge. Participants will have to make use of lists, dictionaries, tuples, sets, and booleans to solve challenges and win prizes.
