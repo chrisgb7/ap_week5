@@ -1,5 +1,6 @@
 #importing functions
 from problem_set1 import problem1
+from advancedg_slice import advanced_slicing
 #calling the function
 problem1() # this is an abtraction of the function
 advanced_slicing()
